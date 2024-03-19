@@ -4,19 +4,25 @@ a {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: no-wrap;
+    position: relative;
+    margin-left: 0px;
     height: 40px;
     padding: 0 30px;
     color: #00277E
 }
 
 .header-ttl {
+    position: absolute;
+    top: -20px;
     width: 80px;
 }
 
+.header-nav {
+    width: 500px;
+    position: absolute;
+    top: -8px;
+    left: 1450px
+}
 .header-nav-list {
     list-style: none;
     display: flex;
